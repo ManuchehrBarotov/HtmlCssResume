@@ -1,0 +1,56 @@
+div{
+   transition: all 0.5s; 
+}
+.di:hover{
+    box-shadow: 4px 4px 14px rgba(5, 145, 246, 20);
+    size: 1.2rem;
+    box-sizing: content-box;
+    transition: all 1s;
+}
+
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    border:none;
+    background: #1373b3;
+    color:white;
+    font-family: inherit;
+    opacity:0.3;
+}
+
+.btn:hover{
+    opacity:1;
+    box-shadow: 4px 4px 14px #13b3a3;
+    font-size: 1.5rem;
+    width: 120px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.btn:active{
+    color:#18b313;
+}
+
+.btn:visited{
+    color: blue;
+}
+
+a{
+    color: #e4e4e47a;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#d6970e;
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
+
+a:visited{
+    color: #4193ff;
+}
+
+a:active{
+    color:blue;
+}

@@ -1,0 +1,29 @@
+.border1{
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(48, 64, 49);
+    border-radius: 16px;
+    border-bottom: 15px;
+    border-top: 10px;
+}
+
+.border2{
+    border: 2px solid darkcyan;
+    border-radius: 16px;
+    align-items: center;
+}
+
+
+.border3{
+    border-left: 6px solid rgb(255, 217, 0);
+    background:#1373b388;
+    padding-left:10px;
+    color:rgba(255, 255, 255, 0.495);
+    border-radius:5px;
+}
+
+.border4{
+    border-left: 6px solid rgb(17, 100, 118);
+    background: #16384f; 
+    padding-left:10px;
+}

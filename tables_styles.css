@@ -1,0 +1,38 @@
+.table{
+    margin:10px;
+    padding:10px;
+}
+
+.table  td:hover{
+    border-radius: 10px;
+    padding:5px;
+    margin: 15px;
+    box-shadow: 4px 4px 14px rgba(5, 145, 246, 20);
+    background-color: rgba(5, 145, 246, 20) ;
+    transition: all 1s;
+}
+
+.ol li:nth-child(even){
+    margin: 10px;
+    padding:10px;
+    background: rgba(255, 255, 255, 0.367);
+    border-radius: 10px;
+    color:black;
+}
+
+.ol li:nth-child(odd){
+    margin: 10px;
+    padding:10px;
+    background: rgba(23, 102, 133, 0.964);
+    border-radius: 10px;
+}
+
+.ol li:nth-child(odd):hover{
+    box-shadow: 4px 4px 14px rgba(5, 145, 246, 20);
+    transition:all 1s;
+}
+.ol li:nth-child(even):hover{
+    box-shadow: 4px 4px 14px rgba(5, 145, 246, 20);
+    transition:all 1s;
+    
+}
